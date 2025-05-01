@@ -1,7 +1,6 @@
 const express =require("express");
 const app =express();
 app.get("/",(req,res) =>{
-    //route http://localhost:5000
-    res.send("hello world*");
+// /    res.send("hello world*");
 });
 app.listen(5000,() =>console.log('server running on port 5000'));
